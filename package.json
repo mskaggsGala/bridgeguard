@@ -1,0 +1,23 @@
+{
+  "name": "bridgeguard",
+  "version": "1.0.0",
+  "description": "A bot for testing the GalaChain bridge",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/test.js",
+    "dev": "node --watch src/index.js",
+    "security": "node src/security-test-runner.js",
+    "public-test": "node src/public-test.js"
+  },
+  "keywords": ["galachain", "bridge", "testing", "bot"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "crypto": "^1.0.1",
+    "secp256k1": "^5.0.0",
+    "dotenv": "^16.3.1"
+  }
+}
